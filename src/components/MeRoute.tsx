@@ -30,7 +30,7 @@ const MeRoute = () => {
       navigate("/");
       //navigate back home
     }
-  }, [user]);
+  }, [user, navigate]);
 
   return (
     <div className="MeRoute">
